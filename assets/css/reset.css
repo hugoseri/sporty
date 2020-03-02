@@ -46,3 +46,5 @@ table {
 }
 
 * { -webkit-tap-highlight-color: transparent; }
+
+pre { font-family: monospace; }
