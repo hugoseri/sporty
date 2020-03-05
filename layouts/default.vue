@@ -19,7 +19,7 @@
 
 <style>
   .layout-header {
-    background-color: #353535; color: #FFF;
+    background-color: #474747; color: #FFF;
     position: fixed; right: 0; top: 0; left: 0; height: 64px;
   }
   .layout-content {
