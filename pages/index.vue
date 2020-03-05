@@ -1,71 +1,50 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        </h1>
-      <h2 class="subtitle">
-        My good Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <section>
+    <section class="upcoming-events">
+      <h1>Your upcoming events</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id consectetur neque. Nam finibus pellentesque
+        metus. Integer id mi eu justo dictum auctor. Vivamus pellentesque eros urna, id scelerisque magna porta et.
+        Nulla in leo convallis, auctor ipsum eu, gravida ante. Pellentesque iaculis lectus non lorem elementum
+        convallis.
+        Morbi sed tortor nisi. Integer molestie mattis lacus, sed accumsan enim commodo sit amet.
+
+        Etiam nec luctus massa, at egestas sapien. Aenean pulvinar rutrum nisl, eu varius nisi ullamcorper quis.
+        Nulla bibendum sem eros, sed tristique magna faucibus sit amet. Maecenas quis neque vel odio porta aliquet nec
+        at nibh. Nullam at lacinia mi. Nulla molestie massa vitae iaculis rutrum. Integer dictum urna at lectus
+        imperdiet iaculis vitae ut risus. In tempor tincidunt odio sit amet sollicitudin. Nullam venenatis massa id
+        velit mattis ullamcorper. Nullam eleifend, dui volutpat pulvinar fermentum, diam enim sagittis arcu, sed
+        ultricies mi felis finibus massa.
+        Mauris nec condimentum est. Duis euismod tellus et eleifend luctus.
+        Morbi vel nunc ullamcorper magna consequat porttitor quis sed velit.
+      </p>
+    </section>
+
+    <section class="search-events">
+      <h1>Search for events</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id consectetur neque. Nam finibus pellentesque
+        metus. Integer id mi eu justo dictum auctor. Vivamus pellentesque eros urna, id scelerisque magna porta et.
+        Nulla in leo convallis, auctor ipsum eu, gravida ante. Pellentesque iaculis lectus non lorem elementum
+        convallis.
+        Morbi sed tortor nisi. Integer molestie mattis lacus, sed accumsan enim commodo sit amet.
+
+        Etiam nec luctus massa, at egestas sapien. Aenean pulvinar rutrum nisl, eu varius nisi ullamcorper quis.
+        Nulla bibendum sem eros, sed tristique magna faucibus sit amet. Maecenas quis neque vel odio porta aliquet nec
+        at nibh. Nullam at lacinia mi. Nulla molestie massa vitae iaculis rutrum. Integer dictum urna at lectus
+        imperdiet iaculis vitae ut risus. In tempor tincidunt odio sit amet sollicitudin. Nullam venenatis massa id
+        velit mattis ullamcorper. Nullam eleifend, dui volutpat pulvinar fermentum, diam enim sagittis arcu, sed
+        ultricies mi felis finibus massa.
+        Mauris nec condimentum est. Duis euismod tellus et eleifend luctus.
+        Morbi vel nunc ullamcorper magna consequat porttitor quis sed velit.
+      </p>
+    </section>
+  </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
+  export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

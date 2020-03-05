@@ -17,6 +17,15 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+          {
+            rel: 'stylesheet',
+            type: 'text/css',
+            href: 'https://use.fontawesome.com/releases/v5.12.1/css/all.css',
+          },
+          {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Staatliches',
+          }
         ],
     },
 
@@ -30,6 +39,8 @@ export default {
      */
     css: [
         '@/assets/css/reset.css',
+        '@/assets/css/app.css',
+        '@/assets/css/transitions.css'
     ],
 
     /*
