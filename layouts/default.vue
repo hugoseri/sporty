@@ -14,6 +14,31 @@
     <div class="layout-content">
       <nuxt/>
     </div>
+    <div class="layout-bottom">
+      <v-bottom-navigation
+        app
+        :value="activeBtn"
+        dark
+        grow
+        background-color="#696868"
+      >
+        <v-btn>
+          <v-icon color="#474747">mdi-home</v-icon>
+        </v-btn>
+
+        <v-btn>
+          <v-icon color="#474747">mdi-calendar-blank</v-icon>
+        </v-btn>
+
+        <v-btn>
+          <v-icon color="#474747">mdi-message</v-icon>
+        </v-btn>
+
+        <v-btn>
+          <v-icon color="#474747">mdi-account-circle</v-icon>
+        </v-btn>
+      </v-bottom-navigation>
+    </div>
   </div>
 </template>
 
@@ -38,6 +63,11 @@
     text-align: center;
     float: left;
   }
+  .layout-bottom {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+  }
 </style>
 
 <script>
@@ -50,7 +80,9 @@
     },
     data()
     {
-      return {}
+      return {
+        activeBtn: 1,
+      }
     },
     methods: {
       toggleMenu() {
