@@ -1,6 +1,7 @@
 <template>
   <div class="menu-items" @click="closeMenu">
-    <nuxt-link v-for="(item, i) in items" :key="i" :to="item.to" class="menu-item">
+    <nuxt-link v-for="(item, i) in items"
+               v-touchfeedback :key="i" :to="item.to" class="menu-item">
       {{ item.label }}
     </nuxt-link>
   </div>
@@ -36,4 +37,6 @@
     display: block;
     font-size: 15px;
   }
+  .menu-item:hover, .menu-item.is-touch { text-decoration: underline; }
+  .menu-item.nuxt-link-exact-active { color: #E1381B; }
 </style>

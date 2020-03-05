@@ -3,3 +3,13 @@
   transition: transform 300ms;
 }
 .slide-left-enter, .slide-left-leave-to { transform: translateX(-100%); }
+
+.page-enter-active, .page-leave-active {
+  transform:           translateY(0px);
+  transition-property: transform, opacity;
+  transition-duration: 300ms;
+}
+.page-enter, .page-leave-to {
+  transform: translateY(50px);
+  opacity:   0;
+}

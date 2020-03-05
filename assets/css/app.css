@@ -6,6 +6,7 @@ body {
 
 section {
   background: #474747;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -17,10 +18,14 @@ h1 {
   color: #FFF;
 }
 
+h2 {
+  padding: 2px 10px;
+}
+
 p {
   font-size: 15px;
   text-align: left;
-  padding: 10px;
+  padding: 2px 10px;
   color: #FFF;
 }
 

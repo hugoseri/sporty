@@ -2,7 +2,7 @@
   <div class="layout">
     <div class="layout-header">
       <div class="layout-header-menu-handle" @click="toggleMenu">
-        <i :class="handleIcon"></i>
+        <ui-icon :name="handleIcon"/>
       </div>
     </div>
     <transition name="slide-left">
@@ -38,6 +38,11 @@
     text-align: center;
     float: left;
   }
+
+  .layout-header-menu-handle {
+    padding: 0px;
+  }
+
 </style>
 
 <script>
@@ -63,7 +68,7 @@
     computed: {
       handleIcon()
       {
-        return this.menuOpened ? 'fa fa-times' : 'fa fa-bars'
+        return this.$store.state.ui.menu ? 'times' : 'bars'
       },
     }
   }

@@ -46,7 +46,10 @@ export default {
     /*
      * Plugins to load before mounting the App
      */
-    plugins: [],
+    plugins: [
+      '@/plugins/components',
+      {src: '@/plugins/no-ssr', ssr:false}
+    ],
 
     /*
      * Nuxt.js dev-modules
@@ -97,4 +100,11 @@ export default {
         {
         },
     },
+
+  /*
+   * Router configuration
+   */
+  router: {
+    middleware: 'delay',
+  }
 }
