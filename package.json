@@ -21,7 +21,7 @@
         "json-server": "^0.16.1",
         "jsonfile": "^6.0.0",
         "lodash": "^4.17.15",
-        "nuxt": "^2.0.0",
+        "nuxt": "^2.15.8",
         "vue": "^2.6.11",
         "vue-carousel-3d": "^0.2.0",
         "vue-touchfeedback": "^2.0.0",
